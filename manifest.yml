@@ -40,6 +40,12 @@ dependencies:
     md5: 94665f3a39e670507828f5084a40b669
     cf_stacks:
       - cflinuxfs2
+  - name: libffi
+    version: "3.1"
+    cf_stacks:
+      - cflinuxfs2
+    uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/libffi.tar.gz
+    md5: 83028a299b8ac323bda8a56c5c70d4cd      
   - name: bundler
     version: 1.9.7
     uri: https://pivotal-buildpacks.s3.amazonaws.com/ruby/binaries/shared/bundler-1.9.7.tgz
